@@ -13,18 +13,18 @@ import java.util.ArrayList;
 @NoArgsConstructor
 @Builder
 @Accessors(chain = true)
-//public class Pet {
-//    private int id;
-//    private Category category;
-//    private String name;
-//    private ArrayList<String> photoUrls;
-//    private ArrayList<Tag> tags;
-//    private String status;
-//}
 public class Pet {
     private int id;
+    private Category category;
     private String name;
-    private String[] photoUrls;
-    private String[] tags;
+    private ArrayList<String> photoUrls;
+    private ArrayList<Tag> tags;
     private String status;
 }
+//public class Pet {
+//    private int id;
+//    private String name;
+//    private String[] photoUrls;
+//    private String[] tags;
+//    private String status;
+//}
